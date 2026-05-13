@@ -153,12 +153,7 @@
       ]
     ]
   },
-  "time": {
-    "interval": [
-      "T00Z",
-      "T23Z"
-    ]
-  },
+  "time": null,
   "properties": {
     "type": "dataset",
     "title": "Hourly synoptic observations from fixed-land stations (SYNOP) - UK",
@@ -204,6 +199,16 @@
           }
         ],
         "scheme": "http://codes.wmo.int/bufr4/b"
+      },
+      {
+        "scheme": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline",
+        "concepts": [
+          {
+            "id": "weather",
+            "title": "Weather",
+            "url": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/weather"
+          }
+        ]
       }
     ],
     "contacts": [
@@ -246,9 +251,9 @@
         ]
       }
     ],
-    "created": "2024-12-14T13:05:00Z",
+    "created": "2024-12-14",
     "wmo:dataPolicy": "core",
-    "updated": "2025-02-25T12:45:00Z",
+    "updated": "2026-05-13",
     "keywords": [
       "weather",
       "surface based observations",
@@ -296,42 +301,6 @@
       "channel": "cache/a/wis2/uk-metoffice/data/core/weather/surface-based-observations/synop",
       "type": "application/geo+json",
       "title": "Notifications from National Oceanic and Atmospheric Administration, National Weather Service, Global Broker Service (us-noaa-nws-global-broker)"
-    },
-    {
-      "type": "application/json",
-      "rel": "root",
-      "title": "The landing page of this server as JSON",
-      "href": "https://wis2-gdc.weather.gc.ca?f=json"
-    },
-    {
-      "type": "text/html",
-      "rel": "root",
-      "title": "The landing page of this server as HTML",
-      "href": "https://wis2-gdc.weather.gc.ca?f=html"
-    },
-    {
-      "rel": "self",
-      "type": "application/geo+json",
-      "title": "This document as JSON",
-      "href": "https://wis2-gdc.weather.gc.ca/collections/wis2-discovery-metadata/items/urn:wmo:md:uk-metoffice:weather.surface-based-observations.synop.uk-synop?f=json"
-    },
-    {
-      "rel": "alternate",
-      "type": "application/ld+json",
-      "title": "This document as RDF (JSON-LD)",
-      "href": "https://wis2-gdc.weather.gc.ca/collections/wis2-discovery-metadata/items/urn:wmo:md:uk-metoffice:weather.surface-based-observations.synop.uk-synop?f=jsonld"
-    },
-    {
-      "rel": "alternate",
-      "type": "text/html",
-      "title": "This document as HTML",
-      "href": "https://wis2-gdc.weather.gc.ca/collections/wis2-discovery-metadata/items/urn:wmo:md:uk-metoffice:weather.surface-based-observations.synop.uk-synop?f=html"
-    },
-    {
-      "rel": "collection",
-      "type": "application/json",
-      "title": "WIS2 discovery metadata",
-      "href": "https://wis2-gdc.weather.gc.ca/collections/wis2-discovery-metadata"
     }
   ]
 }
