@@ -1,0 +1,199 @@
+{
+  "id": "urn:wmo:md:uk-metoffice:pigeon-density",
+  "type": "Feature",
+  "conformsTo": [
+    "http://wis.wmo.int/spec/wcmp/2/conf/core"
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.263672,
+          53.067627
+        ],
+        [
+          1.230469,
+          53.304621
+        ],
+        [
+          2.06543,
+          52.829321
+        ],
+        [
+          2.021484,
+          51.971346
+        ],
+        [
+          1.274414,
+          51.590723
+        ],
+        [
+          1.889648,
+          51.316881
+        ],
+        [
+          1.142578,
+          50.792047
+        ],
+        [
+          -0.395508,
+          50.541363
+        ],
+        [
+          -1.845703,
+          50.373496
+        ],
+        [
+          -2.856445,
+          50.373496
+        ],
+        [
+          -4.042969,
+          50.120578
+        ],
+        [
+          -5.273438,
+          49.724479
+        ],
+        [
+          -6.108398,
+          50.035974
+        ],
+        [
+          -5.581055,
+          50.485474
+        ],
+        [
+          -4.833984,
+          51.206883
+        ],
+        [
+          -3.867188,
+          51.399206
+        ],
+        [
+          -3.339844,
+          51.303145
+        ],
+        [
+          -2.801514,
+          51.529251
+        ],
+        [
+          -2.647705,
+          51.781436
+        ],
+        [
+          -2.889404,
+          51.937492
+        ],
+        [
+          -2.581787,
+          52.113252
+        ],
+        [
+          -1.395264,
+          52.106505
+        ],
+        [
+          -1.054688,
+          52.254709
+        ],
+        [
+          -0.703125,
+          52.676382
+        ],
+        [
+          0.263672,
+          53.067627
+        ]
+      ]
+    ]
+  },
+  "time": {
+    "interval": [
+      "2026-04-01",
+      "2026-05-31"
+    ]
+  },
+  "properties": {
+    "type": "dataset",
+    "title": "Pigeon population density over the south of England",
+    "description": "This dataset provides a 1km resolution dataset of the density of pigeons throughout the south of England. The density is the number of pigeons per square kilometer. The dataset covers April and May 2026.",
+    "themes": [
+      {
+        "scheme": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline",
+        "concepts": [
+          {
+            "id": "weather",
+            "title": "Weather",
+            "url": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/weather"
+          }
+        ]
+      }
+    ],
+    "contacts": [
+      {
+        "organization": "Met Office",
+        "name": "Jeremy Tandy",
+        "positionName": "",
+        "roles": [
+          "pointOfContact",
+          "host"
+        ],
+        "emails": [
+          {
+            "value": "jeremy.tandy@metoffice.gov.uk",
+            "roles": [
+              "pointOfContact"
+            ]
+          }
+        ],
+        "phones": [
+          {
+            "value": "+447891012345",
+            "roles": [
+              "voice"
+            ]
+          }
+        ],
+        "addresses": [
+          {
+            "country": "GBR",
+            "city": "Exeter"
+          }
+        ],
+        "contactInstructions": "Pigeon mail service"
+      }
+    ],
+    "created": "2026-05-13",
+    "wmo:dataPolicy": "recommended",
+    "keywords": [
+      "pigeon",
+      "biodiversity"
+    ],
+    "status": {
+      "id": "experimental"
+    }
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "type": "text/html",
+      "title": "Creative Commons Attribution-NonCommercial 4.0 license"
+    }
+  ],
+  "additionalExtents": {
+    "temporal": {
+      "interval": [
+        [
+          "2026-04-01",
+          "2026-05-31"
+        ]
+      ],
+      "resolution": "P1W"
+    }
+  }
+}
