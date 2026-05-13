@@ -1,0 +1,337 @@
+{
+  "id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.synop.uk-synop",
+  "type": "Feature",
+  "conformsTo": [
+    "http://wis.wmo.int/spec/wcmp/2/conf/core"
+  ],
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -11,
+            61
+          ],
+          [
+            2,
+            61
+          ],
+          [
+            2,
+            49
+          ],
+          [
+            -11,
+            49
+          ],
+          [
+            -11,
+            61
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            32.26,
+            34.57
+          ],
+          [
+            34,
+            34.57
+          ],
+          [
+            34,
+            35.69
+          ],
+          [
+            32.26,
+            35.69
+          ],
+          [
+            32.26,
+            34.57
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            -5.37,
+            36.11
+          ],
+          [
+            -5.33,
+            36.11
+          ],
+          [
+            -5.33,
+            36.16
+          ],
+          [
+            -5.37,
+            36.16
+          ],
+          [
+            -5.37,
+            36.11
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            -62.5,
+            -53.5
+          ],
+          [
+            -56.5,
+            -53.5
+          ],
+          [
+            -56.5,
+            -50.5
+          ],
+          [
+            -62.5,
+            -50.5
+          ],
+          [
+            -62.5,
+            -53.5
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            -5.8,
+            -16.1
+          ],
+          [
+            -5.6,
+            -16.1
+          ],
+          [
+            -5.6,
+            -15.8
+          ],
+          [
+            -5.8,
+            -15.8
+          ],
+          [
+            -5.8,
+            -16.1
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            -14.45,
+            -7.995
+          ],
+          [
+            -14.45,
+            -7.88
+          ],
+          [
+            -14.287,
+            -7.88
+          ],
+          [
+            -14.287,
+            -7.995
+          ],
+          [
+            -14.45,
+            -7.995
+          ]
+        ]
+      ]
+    ]
+  },
+  "time": {
+    "interval": [
+      "T00Z",
+      "T23Z"
+    ]
+  },
+  "properties": {
+    "type": "dataset",
+    "title": "Hourly synoptic observations from fixed-land stations (SYNOP) - UK",
+    "description": "Hourly land surface observations (SYNOP) are standardized meteorological reports which form a component of the Global Basic Observing Network (GBON). In the UK, these observations are collected by automated weather stations. Each report should include as a minimum: air temperature, dew point, atmospheric pressure, wind speed and direction, precipitation and snow depth, with some UK stations also reporting cloud cover and types, visibility, weather phenomena, sunshine duration, and state of ground. Reports are in BUFR format.",
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "Application-ready",
+            "title": "dataReadiness",
+            "url": "http://reference.metoffice.gov.uk/DataCategories/data-readiness/Application-ready"
+          }
+        ],
+        "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-readiness"
+      },
+      {
+        "concepts": [
+          {
+            "id": "Observations",
+            "title": "dataType",
+            "description": "Observations data are defined as measurements of the physical, chemical and/or biological environment, measured at a specific time in the past.  They may be direct or indirect measurements and may be feature or coverage data.  In order to be valid, observations data must carry geospatial and temporal metadata as well as variable values (or equivalent such as pixel values for a faster coverage).",
+            "url": "http://reference.metoffice.gov.uk/DataCategories/data-types/Observations"
+          }
+        ],
+        "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-types"
+      },
+      {
+        "concepts": [
+          {
+            "id": "weather",
+            "title": "Weather",
+            "url": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline/weather"
+          }
+        ],
+        "scheme": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline"
+      },
+      {
+        "concepts": [
+          {
+            "id": "19",
+            "title": "BUFR/CREX Synoptic features",
+            "url": "http://codes.wmo.int/bufr4/b/19"
+          }
+        ],
+        "scheme": "http://codes.wmo.int/bufr4/b"
+      }
+    ],
+    "contacts": [
+      {
+        "identifier": "MO",
+        "name": "Met Office",
+        "organization": "Met Office",
+        "phones": [
+          {
+            "value": "+443301350000"
+          }
+        ],
+        "emails": [
+          {
+            "value": "servicedesk@metoffice.gov.uk"
+          }
+        ],
+        "addresses": [
+          {
+            "deliveryPoint": [
+              "FitzRoy Road"
+            ],
+            "name": "Met Office",
+            "city": "Exeter",
+            "administrativeArea": "Devon",
+            "postalCode": "EX1 3PB",
+            "country": "GBR"
+          }
+        ],
+        "links": [
+          {
+            "rel": "canonical",
+            "type": "text/html",
+            "href": "https://www.metoffice.gov.uk/about-us/contact"
+          }
+        ],
+        "roles": [
+          "host",
+          "producer"
+        ]
+      }
+    ],
+    "created": "2024-12-14T13:05:00Z",
+    "wmo:dataPolicy": "core",
+    "updated": "2025-02-25T12:45:00Z",
+    "keywords": [
+      "weather",
+      "surface based observations",
+      "synops",
+      "land observations"
+    ],
+    "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021)).",
+    "status": {
+      "id": "operational",
+      "title": "dataset is in 24/7 operation",
+      "url": "https://www.metoffice.gov.uk/services/data/business-data/observational"
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "https://www.metoffice.gov.uk/weather/guides/observations/uk-observations-network",
+      "type": "text/html",
+      "title": "Documentation"
+    },
+    {
+      "rel": "items",
+      "href": "mqtts://everyone:everyone@gb.wis.cma.cn:8883",
+      "channel": "cache/a/wis2/uk-metoffice/data/core/weather/surface-based-observations/synop",
+      "type": "application/geo+json",
+      "title": "Notifications from China Meteorological Administration, Global Broker Service (cn-cma-global-broker)"
+    },
+    {
+      "rel": "items",
+      "href": "mqtts://everyone:everyone@globalbroker.meteo.fr:8883",
+      "channel": "cache/a/wis2/uk-metoffice/data/core/weather/surface-based-observations/synop",
+      "type": "application/geo+json",
+      "title": "Notifications from Météo-France, Global Broker Service (fr-meteofrance-global-broker)"
+    },
+    {
+      "rel": "items",
+      "href": "mqtts://everyone:everyone@globalbroker.inmet.gov.br:8883",
+      "channel": "cache/a/wis2/uk-metoffice/data/core/weather/surface-based-observations/synop",
+      "type": "application/geo+json",
+      "title": "Notifications from Instituto Nacional de Meteorologia (Brazil), Global Broker Service (br-inmet-global-broker)"
+    },
+    {
+      "rel": "items",
+      "href": "mqtts://everyone:everyone@wis2globalbroker.nws.noaa.gov:8883",
+      "channel": "cache/a/wis2/uk-metoffice/data/core/weather/surface-based-observations/synop",
+      "type": "application/geo+json",
+      "title": "Notifications from National Oceanic and Atmospheric Administration, National Weather Service, Global Broker Service (us-noaa-nws-global-broker)"
+    },
+    {
+      "type": "application/json",
+      "rel": "root",
+      "title": "The landing page of this server as JSON",
+      "href": "https://wis2-gdc.weather.gc.ca?f=json"
+    },
+    {
+      "type": "text/html",
+      "rel": "root",
+      "title": "The landing page of this server as HTML",
+      "href": "https://wis2-gdc.weather.gc.ca?f=html"
+    },
+    {
+      "rel": "self",
+      "type": "application/geo+json",
+      "title": "This document as JSON",
+      "href": "https://wis2-gdc.weather.gc.ca/collections/wis2-discovery-metadata/items/urn:wmo:md:uk-metoffice:weather.surface-based-observations.synop.uk-synop?f=json"
+    },
+    {
+      "rel": "alternate",
+      "type": "application/ld+json",
+      "title": "This document as RDF (JSON-LD)",
+      "href": "https://wis2-gdc.weather.gc.ca/collections/wis2-discovery-metadata/items/urn:wmo:md:uk-metoffice:weather.surface-based-observations.synop.uk-synop?f=jsonld"
+    },
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "title": "This document as HTML",
+      "href": "https://wis2-gdc.weather.gc.ca/collections/wis2-discovery-metadata/items/urn:wmo:md:uk-metoffice:weather.surface-based-observations.synop.uk-synop?f=html"
+    },
+    {
+      "rel": "collection",
+      "type": "application/json",
+      "title": "WIS2 discovery metadata",
+      "href": "https://wis2-gdc.weather.gc.ca/collections/wis2-discovery-metadata"
+    }
+  ]
+}
