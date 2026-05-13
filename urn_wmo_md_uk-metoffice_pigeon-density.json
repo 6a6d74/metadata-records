@@ -120,7 +120,7 @@
   "properties": {
     "type": "dataset",
     "title": "Pigeon population density over the south of England",
-    "description": "This dataset provides a 1km resolution dataset of the density of pigeons throughout the south of England. The density is the number of pigeons per square kilometer. The dataset covers April and May 2026.",
+    "description": "This Dataset provides a 1km resolution dataset of the density of pigeons throughout the south of England. The density is the number of pigeons per square kilometer. The dataset covers April and May 2026.",
     "themes": [
       {
         "scheme": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline",
