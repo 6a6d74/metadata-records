@@ -1,0 +1,19 @@
+{
+  "id": "",
+  "type": "Feature",
+  "conformsTo": [
+    "http://wis.wmo.int/spec/wcmp/2/conf/core"
+  ],
+  "geometry": null,
+  "time": null,
+  "properties": {
+    "type": "dataset",
+    "title": "",
+    "description": "",
+    "themes": [],
+    "contacts": [],
+    "created": "2026-06-11T19:33:48Z",
+    "wmo:dataPolicy": "core"
+  },
+  "links": []
+}
